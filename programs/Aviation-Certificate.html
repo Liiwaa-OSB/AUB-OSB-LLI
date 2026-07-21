@@ -259,6 +259,28 @@
       width: 100%;
     }
 
+    .hero__logos {
+      display: flex;
+      align-items: center;
+      gap: clamp(1rem, 3vw, 3rem);
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .hero__logos img {
+      height: clamp(70px, 8vw, 80px);
+      width: auto;
+      flex: 0 0 auto;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .hero__logos img#IATA-logo {
+      height: clamp(80px, 8vw, 90px);
+
+    }
+
     .hero__label {
       font-size: 0.8rem;
       letter-spacing: 3px;
@@ -1590,7 +1612,11 @@
       <!-- static text content (stays same) -->
       <div class="container"
         style="width:100%; max-width:1280px; margin:0 auto; padding:0 1.5rem; position:relative; z-index:2;">
-        <div class="hero__content" style="padding:3rem 0;">
+        <div class="hero__content" style="padding:1rem 0 3rem 0;">
+          <div class="hero__logos">
+            <img src="../images/logos/AUB-OSB-LLI-Logo-white.png" />
+            <img id="IATA-logo" src="../images/logos/Logo-IATA.png" />
+          </div>
           <div class="hero__label">Professional Certificate</div>
           <h1 class="hero__title">Aviation Management</h1>
           <div class="hero__sub">In Partnership with IATA | AUB OSB</div>
@@ -1754,7 +1780,8 @@
               <div class="carousel__slide">
                 <div class="participant-card">
                   <div class="participant-card__image">
-                    <img src="../images/AUB-OSB-Aviation-airline-airport-managers.jpg" alt="Airline & Airport Managers" />
+                    <img src="../images/AUB-OSB-Aviation-airline-airport-managers.jpg"
+                      alt="Airline & Airport Managers" />
                   </div>
                   <div class="participant-card__content">
                     <h3 class="participant-card__title">Airline & Airport Managers</h3>
