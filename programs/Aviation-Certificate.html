@@ -1615,8 +1615,10 @@
             and adapt rapidly. Take off toward a future in aviation with a program designed to help you lead, innovate,
             and succeed.</p>
           <div class="hero__buttons">
-            <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" class="btn btn-primary">Register Now</a>
-            <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Brochure.html"  class="btn btn-outline">Download Brochure</a>
+            <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" class="btn btn-primary">Register
+              Now</a>
+            <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Brochure.html"
+              class="btn btn-outline">Download Brochure</a>
           </div>
         </div>
       </div>
@@ -2023,6 +2025,41 @@
       </div>
     </section>
 
+    <style>
+      .contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .contact-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.2s, transform 0.2s;
+  backdrop-filter: blur(2px);
+}
+
+.contact-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.02);
+}
+    </style>
     <!-- CTA – full width background -->
     <section class="cta-full">
       <div class="cta-block reveal">
@@ -2031,7 +2068,16 @@
           positions
           you at the forefront of aviation education with IATA credentials and AUB academic excellence.</p>
         <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
-                      <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" class="btn btn-outline" style="background:white; color:var(--color-primary);">Register Now</a>
+          <a href="tel:+9611350000,3759 " class="contact-link">
+            <i class="fas fa-phone"></i>
+            <span>+961-1-350 000 ext. 3759 </span>
+          </a>
+          <a href="mailto:hn22@aub.edu.lb" class="contact-link">
+            <i class="fas fa-envelope"></i>
+            <span>hn22@aub.edu.lb</span>
+          </a>
+          <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" class="btn btn-outline"
+            style="background:white; color:var(--color-primary);">Register Now</a>
         </div>
       </div>
     </section>
@@ -2040,20 +2086,22 @@
 
   <!-- STICKY BUTTONS (unique design) -->
   <div class="sticky-cta">
-    <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Brochure.html" class="sticky-cta__btn" aria-label="Download Brochure">
+    <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Brochure.html" target="_blank" class="sticky-cta__btn"
+      aria-label="Download Brochure">
       <svg class="sticky-cta__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path
           d="M7 5.222V0h2v5.193l1.107-1.107L11.52 5.5 7.986 9.036 4.45 5.5l1.414-1.414L7 5.222zM16 11v5H0v-5h2v3h12v-3h2z" />
       </svg>
       <span class="sticky-cta__label">Brochure</span></a>
-    <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" class="sticky-cta__btn" aria-label="Apply Now">
+    <a href="https://www.aub.edu.lb/osb/Landing/Pages/LLI-Aviation-Apply.html" target="_blank" class="sticky-cta__btn"
+      aria-label="Apply Now">
       <svg class="sticky-cta__icon" viewBox="0 -0.5 21 21" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path
           d="M384,209.210475 L384,219 L363,219 L363,199.42095 L373.5,199.42095 L373.5,201.378855 L365.1,201.378855 L365.1,217.042095 L381.9,217.042095 L381.9,209.210475 L384,209.210475 Z M370.35,209.51395 L378.7731,201.64513 L380.4048,203.643172 L371.88195,212.147332 L370.35,212.147332 L370.35,209.51395 Z M368.25,214.105237 L372.7818,214.105237 L383.18415,203.64513 L378.8298,199 L368.25,208.687714 L368.25,214.105237 Z"
           transform="translate(-363 -199)" />
       </svg>
       <span class="sticky-cta__label">Apply Now</span></a>
-    <a href="mailto:hn22@aub.edu.lb" class="sticky-cta__btn" aria-label="Contact">
+    <a href="mailto:hn22@aub.edu.lb" class="sticky-cta__btn" target="_blank" aria-label="Contact">
       <svg class="sticky-cta__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <g fill="none" stroke="currentColor" stroke-width="2.8" stroke-linejoin="miter" stroke-linecap="butt">
           <rect x="1" y="4" width="22" height="16" />
