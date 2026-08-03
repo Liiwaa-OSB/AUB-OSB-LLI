@@ -1656,18 +1656,6 @@
       </div>
     </section>
 
-    <!-- (optional: lucide icons – just for demo) -->
-    <script>
-      if (typeof lucide !== 'undefined') lucide.createIcons();
-      // button alerts (optional)
-      document.querySelectorAll('.btn').forEach(btn => {
-        btn.addEventListener('click', function (e) {
-          e.preventDefault();
-          alert('Hero auto‑carousel — text stays fixed, images slide.');
-        });
-      });
-    </script>
-
     <!-- INFO CARDS -->
     <div class="container reveal">
       <div class="info-cards">
@@ -2245,14 +2233,6 @@
         });
       }, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' });
       reveals.forEach(el => observer.observe(el));
-
-      // 3. Button alerts (optional, you can keep or remove)
-      document.querySelectorAll('.btn').forEach(btn => {
-        btn.addEventListener('click', function (e) {
-          e.preventDefault();
-          alert('Registration and inquiry system ready. Contact OSB Online for enrollment details.');
-        });
-      });
     })();
   </script>
 </body>
