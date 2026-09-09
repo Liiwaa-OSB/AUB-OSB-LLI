@@ -1,3 +1,7 @@
+:root {
+  --color-accent: #840132;
+}
+
 /* ===== STICKY CTA BUTTONS ===== */
 .sticky-cta {
   position: fixed;
